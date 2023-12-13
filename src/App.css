@@ -1,0 +1,190 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+.logo{
+  width: 15%;
+}
+
+
+
+.btn36-primary-normal {
+  background-color:#eb595f;
+  border-radius: 24px;
+  color: white !important;;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: 20px;
+  padding: 8px 36px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+
+.btn36-primary-normal:hover {
+  transition: background-color .3s ease-out !important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.bgimg {
+  background-image: url('./Image/pexels-photo-1571460.jpeg');
+  width: 100%;
+  height: 90vh;
+  background-size:cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  content: '';
+ 
+}
+
+.interiors {
+  font-weight:600;
+  color: white;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.fitbudget{
+  color:white;
+}
+
+.quality{
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formname{
+  padding: 10px !important;
+}
+
+.heading{
+  margin-top: 10% !important;
+}
+
+.titile{
+  margin-top: 5% !important;
+}
+
+.freebutton{
+  background-color:#eb595f;
+  border-radius: 24px;
+  color: white !important;;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing:5px;
+  line-height: 20px;
+  /* padding: 20px 36px; */
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+ 
+}
+
+.my-card:hover {
+  background-color: #2f55d4 !important; /* Change to the desired hover background color */
+  color: white !important; 
+  cursor: pointer;/* Change to the desired hover text color */
+}
+
+.my-card{
+  border: none;
+}
+.search, .my-card {
+  transition: all 0.3s ease; 
+  padding: 10px;
+}
+
+
+.designcrave{
+  padding: 10%;
+}
+
+
+.card-product{
+  margin-left: 5% !important;
+}
+
+.companycontent{
+  padding: 10%;
+}
+
+/* Your CSS file, e.g., Footer.css */
+
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #343a40; /* Dark text color */
+  padding: 30px 0; /* Adjust the top and bottom padding */
+}
+
+.footer-content {
+  max-width: 1200px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+
+
+.footer p {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Add hover effect on list items */
+ul li:hover {
+  color: #007bff; /* Change text color on hover */
+  cursor: pointer;
+}
+
+/* Media query for responsiveness */
+
+.footerbanner{
+  width: 100% !important;
+}
+
+.btn36-primary-normal:hover {
+  background-color: #0056b3 !important; /* Change background color on hover */
+}
+.freebutton:hover {
+  background-color: #0056b3 !important; /* Change background color on hover */
+}
+
+.container-fluid {
+  position: fixed;
+  top: -6px;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.5s ease-in-out; /* Add a smooth transition effect for the 'top' property */
+}
+
+.header-hidden {
+  top: -110px; /* Adjust the value to hide the header completely */
+}
+
+.largedevice{
+  display: flex !important;
+  justify-content: space-between !important;
+}

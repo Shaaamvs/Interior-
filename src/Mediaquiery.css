@@ -1,0 +1,49 @@
+@media (max-width: 576px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    img.img-fluid.logo {
+        width: 25%;
+    }
+
+    h2.interiors {
+        font-size: 18px;
+    }
+    p.quality {
+        font-size: 17px !important;
+    }
+    .row.shadow.p-1.mb-3.bg-body.rounded.mt-5.w-100 {
+        margin-top: 50% !important;
+        margin-left: 1% !important;
+    }
+    .container.mt-5.heading {
+        margin-top: 50% !important;
+    }
+
+
+    .hover {
+        padding-top: 10px !important;
+    }
+
+    button.freebutton.w-50 {
+        border-radius: 12px !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .largedevice{
+        display: inline-block !important;
+      }
+ }
+
+
+
+ @media(min-width:768px)and(max-width:1400px){
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ }
